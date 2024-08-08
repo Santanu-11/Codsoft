@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santanu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Santanu's Portfolio</div>
+            <div class="right">
+                <ul div="space">
+                    <li ><a href="/">Home </a></li>
+                    <li><a href="/">About </a></li>
+                    <li><a href="/">Projects  </a></li>
+                    <li><a href="/">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Santanu</span>
+                <div> and I am a Web Developer</div> 
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="resume.pdf">
+                        <button class="btn">Download resume</button><br>
+                    </a>
+                    <img src="git.jpg" alt="git">
+                    <a href="https://github.com/Santanu-11">
+                        <button class="btn">Visit Github</button>
+                    </a>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="developer.png" alt="Developer">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="c.jpg" alt="C language">
+                    <div class="vertical-title">C Programmer</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c++.jpg" alt="C++ language">
+                    <div class="vertical-title">C++ Programmer</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dsa.jpg" alt="DSA">
+                    <div class="vertical-title">DSA</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.jpg" alt="HTML,CSS,JS">
+                    <div class="vertical-title">HTML,CSS,JS Developer</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.jpg" alt="Java language">
+                    <div class="vertical-title">Java Programmer</div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Developer Portfolio</h3>
+            </div>
+
+            Contact Me
+
+            <div class="footer-third">
+                Email-singhsantanu683@gmail.com
+                <a href="https://www.instagram.com/santanu.1108/?igsh=MTVpdDFvYzFiZThpdg%3D%3D">
+                    <img src="ig.jpg" alt="instagram">
+                </a>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; Santanuportfolio.com | All rights reserved
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Programmer', 'Web Designer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

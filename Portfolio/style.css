@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(0, 0, 35);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#space{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(20, 20, 60);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25 px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(150, 150, 230);
+    font-size: 1.05rem;
+}
+
+main hr {
+    border: 0;
+    background: #2d2b4a;
+    height: 1.5px;
+    margin: 60px 90px;
+}
+
+.left {
+    font-size: 1.5rem;
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 15px;
+    background: #1e2167;
+    color: white;
+    border: 2.5px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection img {
+    width: 40px;
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
+
+.rightSection img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2.5px solid #fff;
+}
+
+.rightSection img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+}
+
+.purple {
+    color: rgb(170, 110, 230);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(170, 110, 230);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2.5px;
+    margin: 16px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 100px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 25px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.image-top:hover {
+    transform: scale(4);
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 150px 0px;
+}
+
+footer img {
+    width: 23px;
+    position: relative;
+    top: 32px;
+    left: 9px;
+}
